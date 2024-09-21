@@ -1,0 +1,91 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333333;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 80vh;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(39, 111, 25, 0.2);
+    background-color: #118bb0;
+}
+
+.banner-text {
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+.banner-text h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #6c1142;
+}
+
+.banner-text p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.eligibility {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffd700;
+}
+
+.registrations {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #ffea00;
+    font-weight: bold;
+}
+
+.contact-info, .location, .website {
+    font-size: 16px;
+    color: #fff;
+    margin: 5px 0;
+}
+
+.website a {
+    color: #ffea00;
+    text-decoration: none;
+}
+
+.website a:hover {
+    text-decoration: underline;
+}
+
+.signup-button {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.signup-button:hover {
+    background-color: #ff3e30;
+}
+
+.banner {
+    flex: 1;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 10px 10px 0;
+}
